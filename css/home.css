@@ -1,11 +1,11 @@
 #profile-article {
-    margin: 100px 0;
+    margin: 165px 0;
 }
 .profile-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     text-align: center;
 
 }
@@ -29,4 +29,48 @@
 
 #profile-section span {
     font-weight: 500;
+}
+
+/*about article*/
+#about {
+    width: 1400px;
+    margin: 0 auto;
+    text-align: right;
+    border-top: 1.5px solid  rgb(38, 55, 110);
+}
+
+/*section*/
+#section-info{
+    text-align: left;
+}
+.info-title {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 50px 0 50px 0;
+    text-align: left;
+    color: rgb(38, 55, 110);
+}
+.info {
+    margin-top: 25px;
+}
+ 
+/*section2*/
+
+.pictures {
+    text-align: left;
+}
+
+.love {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pictures img {
+    max-width: 220px;
+}
+
+.lovetext {
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
 }
