@@ -15,7 +15,7 @@ function onClickLeftBtn(index) {
 }
 
 function onClickRightBtn() {
-    if(currentIndex > images.length-1) {
+    if(currentIndex == images.length-1) {
         currentIndex = 0;
     }else {
         currentIndex = currentIndex+1;
